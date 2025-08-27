@@ -11,10 +11,9 @@ body{
 }
 
 .main{
-    border: 2px solid red;
     width: 100vw;
     height: 100vh;
-    background-image: url(https://images.pexels.com/photos/695657/pexels-photo-695657.jpeg?cs=srgb&dl=pexels-ironic-695657.jpg&fm=jpg);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiIjSLw9LPY-GEYrMZ_CyBYvX9ZVrH8QowgQ&s);
     background-size: cover;
     background-position: center;
     overflow:hidden;
@@ -36,14 +35,11 @@ body{
 /* Header */
 
 .header{
-    margin-inline: auto;
-    width: 80%;
-    margin-top: 2vh;
     flex-direction: column;
-    gap: 2vh;
+    gap: 4vh;
     justify-content: center;
     align-items: center;
-    border: 2px solid red;
+    width: 100%;
 }
 
 .inputField{
@@ -52,15 +48,20 @@ body{
     text-align: center;
     border: none;
     border-radius: 10px;
+    font-size: 1rem;
+    transform: translateX(30px);
 }
 
 .submitButton{
+    transform: translateX(32px);
     height: 7vh;
     width: 6vw;
     border-radius: 10px;
     border: 2px solid #0bb122;
     background-color: #0bb122;
     color: white;
+    transition: all 0.3s ease-in-out;
+
 }
 
 .submitButton:hover{
@@ -69,21 +70,22 @@ body{
 
 /* Main Body */
 .mainBody{
-    width: 80%;
-    border: 2px solid red;
-    margin-inline: auto;
+    width: 100%;
     justify-content: center;
     align-items: center;
     margin-top: 2vh;
     flex-direction: column;
+    height: 76vh;
+    display: none;
 }
 
 .mainLogo{
     width: 10vw;
 }
 
-.cityName{
+.cityNameField{
     font-size: 2rem;
+    text-align: center;
 }
 
 .tempField{
@@ -96,7 +98,7 @@ body{
     gap: 4vw;
     justify-content: center;
     align-items: center;
-    margin-top: 2vh;
+    margin-top: 4vh;
 }
 
 .descriptionField{
@@ -104,8 +106,26 @@ body{
 }
 
 .weatherDetails2{
-    margin-top: 2vh;
+    margin-top: 4vh;
     gap: 4vw;
     justify-content: center;
     align-items: center;
+}
+
+.card{
+    color: white ;
+    width: 14vw;
+    height: 12vh;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5vw;
+    padding: 1vw;
+    background-color: rgba(255, 255, 255, 0.148);
+    border: 1px solid white;
+}
+
+.displayWeather{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
