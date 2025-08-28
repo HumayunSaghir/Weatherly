@@ -25,7 +25,9 @@ let data = undefined
 
 // Halt form behaviour
 form.addEventListener('submit', (e)=>{
+
     e.preventDefault()
+    
     // Get the value from input
     cityName = inputField.value
 
