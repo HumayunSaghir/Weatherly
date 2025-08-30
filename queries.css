@@ -124,3 +124,102 @@
     }
 
 }
+
+/* Small Tablets */
+@media (min-width:601px) and (max-width:768px) {
+    /* Header */
+    .inputField{
+        width: 60vw;
+        height: 5vh;
+        font-size: 1.2rem;
+    }
+
+    .submitButton{
+        width: 13vw;
+        height: 5.5vh;
+        font-size: 1.2rem;
+    }
+
+    /* Main Body */    
+    .mainBody{
+        justify-content: center ;
+    }
+
+    .cityNameField{
+        margin-top: 4vh;
+        font-size: 2.1rem;
+    }
+
+    .mainLogo{
+        width: 15vw;
+    }
+
+    .descriptionField{
+        font-size: 1.2rem;
+    }
+
+    .card{
+        font-size: 1.1rem;
+        text-align: center;
+        width: 19vw;
+        height: 13vh;
+    }
+
+    /* Error display field */
+    .cityNotFound{
+        width: 40vw;
+        font-size: 1.2rem;
+        left: 30%;
+    }
+
+    .warnLogo{
+        width: 15vw;
+    }
+}
+
+/* For Normal Tablets */
+@media (min-width:769px) and (max-width:1024px) {
+    /* Header */
+    .header h1{
+        font-size: 2.5rem;
+    }
+    
+    .inputField{
+        height: 5vh;
+    }
+
+    .submitButton{
+        width: 11vw;
+        height: 5.2vh;
+    }
+
+    /* Main Body */
+    .mainBody{
+        justify-content: flex-start;
+    }
+
+    .mainBody h1{
+        margin-top: 5vh;
+    }
+
+    .descriptionField{
+        font-size: 1.2rem;
+        margin-bottom: 10vh;
+    }
+
+    .card{
+        text-align: center;
+        font-size: 1.2rem;
+        width: 17vw;
+    }
+
+    /* Error Display Field */
+    .cityNotFound{
+        font-size: 1.2rem;
+    }
+    .warnLogo{
+        width: 10vw;
+        height: 10vh;
+    }
+
+}

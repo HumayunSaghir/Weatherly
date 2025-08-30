@@ -60,7 +60,7 @@ form.addEventListener('submit', (e)=>{
         else if(response.status == "404"){
             mainBody.style.display = 'none'
             cityNotFound.style.display = 'flex'
-            errorInputs.innerText = "Not City Found!"
+            errorInputs.innerText = "No City Found!"
             return undefined
         }
 
