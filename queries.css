@@ -1,3 +1,65 @@
+/* Small Mobile Phones */
+@media (max-width:320px) {
+    /* Header */
+    .header{
+        align-items: flex-start;
+    }
+
+    .header h1{
+        text-align: center;
+        margin-inline: auto;
+    }
+
+    .inputField{
+        font-size: 0.8rem;
+        width: 60vw;
+    }
+
+    .submitButton{
+        width: 20vw;
+    }
+
+    .cityNameField{
+        font-size: 1.6rem;
+        margin-top: 3vh;
+    }
+
+    /* Main Body */
+    .mainBody{
+        justify-content: flex-start;
+    }
+
+    .mainLogo{
+        width: 25vw;
+    }
+
+    .tempField{
+        font-size: 1.2rem;
+    }
+
+    /* Cards Section */
+    .weatherDetails{
+        width: 100%;
+    }
+
+    .card{
+        width: 29vw;
+        font-size: 0.8rem;
+        text-align: center;
+        height: 15vh;
+    }
+
+    /* Error display Card */
+    .cityNotFound{
+        width: 60%;
+        left: 20%;
+    }
+
+    .warnLogo{
+        width: 30vw;
+    }
+}
+
 /* Normal Mobile Phones */
 @media (min-width:321px) and (max-width:600px) {
     /* Disable overflow in document body */
