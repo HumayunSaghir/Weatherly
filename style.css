@@ -13,8 +13,9 @@ body{
 .main{
     width: 100vw;
     height: 100vh;
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiIjSLw9LPY-GEYrMZ_CyBYvX9ZVrH8QowgQ&s);
+    /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiIjSLw9LPY-GEYrMZ_CyBYvX9ZVrH8QowgQ&s); */
     /* background-image: url(); */
+    background-image: url('./assets/fewClouds.png');
     background-size: cover;
     background-position: center;
     overflow:hidden;

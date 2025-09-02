@@ -122,34 +122,34 @@ form.addEventListener('submit', (e)=>{
             
             if(descriptionField.innerText === "overcast clouds"){
                 mainLogo.setAttribute('src', './assets/cloud.png')
-                main.style.backgroundImage = "url('./assets/rainyBackground.png')"
+                // main.style.backgroundImage = "url('./assets/rainyBackground.png')"
             }
 
             else if(descriptionField.innerText === "clear sky"){
-                main.style.backgroundImage = "url('./assets/clearSky.png')"
+                // main.style.backgroundImage = "url('./assets/clearSky.png')"
                 mainLogo.setAttribute('src', './assets/sunny.png')
             } 
 
             else if(descriptionField.innerText === "light rain"){
                 mainLogo.setAttribute('src', './assets/lightrain.png')
-                main.style.backgroundImage = "url('./assets/thunder.png')"
+                // main.style.backgroundImage = "url('./assets/thunder.png')"
             }
 
-            else if(descriptionField.innerText === "scattered clouds"){
-                main.style.backgroundImage = "url('./assets/sepClouds.png')"
-            }
+            // else if(descriptionField.innerText === "scattered clouds"){
+            //     main.style.backgroundImage = "url('./assets/sepClouds.png')"
+            // }
 
-            else if(descriptionField.innerText === "broken clouds"){
-                main.style.backgroundImage = "url('./assets/brokenClouds.png')"
-            }
+            // else if(descriptionField.innerText === "broken clouds"){
+            //     main.style.backgroundImage = "url('./assets/brokenClouds.png')"
+            // }
 
-            else if(descriptionField.innerText === "few clouds"){
-                main.style.backgroundImage = "url('./assets/fewClouds.png')"
-            }
+            // else if(descriptionField.innerText === "few clouds"){
+            //     main.style.backgroundImage = "url('./assets/fewClouds.png')"
+            // }
 
-            else{
-                main.style.backgroundImage = "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiIjSLw9LPY-GEYrMZ_CyBYvX9ZVrH8QowgQ&s')"
-            }
+            // else{
+            //     main.style.backgroundImage = "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiIjSLw9LPY-GEYrMZ_CyBYvX9ZVrH8QowgQ&s')"
+            // }
 
             // Update other variables
             feelsLikeField.innerText = `Feels Like: ${data.main.feels_like}°C`
